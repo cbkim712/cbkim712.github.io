@@ -69,7 +69,6 @@ export default function Experience() {
               </div>
               <div className="shrink-0 text-right">
                 <span className="tag-pill">{t(info.education.date)}</span>
-                <p className="font-mono text-sm font-bold text-[#c2185b] mt-2">GPA {info.education.gpa}</p>
               </div>
             </div>
           </div>

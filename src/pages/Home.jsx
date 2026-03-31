@@ -5,10 +5,9 @@ import { useLang } from "../context/LangContext";
 export default function Home() {
   const { t, lang } = useLang();
   const stats = [
-    { label: { en: "GPA", ko: "학점" }, value: "3.63", emoji: "⭐" },
-    { label: { en: "Projects", ko: "프로젝트" }, value: "4+", emoji: "🛠️" },
-    { label: { en: "Research Roles", ko: "연구 경력" }, value: "2", emoji: "🔬" },
-    { label: { en: "Students Taught", ko: "지도 학생" }, value: "400+", emoji: "📚" },
+    // { label: { en: "Projects", ko: "프로젝트" }, value: "4+", emoji: "🛠️" },
+    // { label: { en: "Research Roles", ko: "연구 경력" }, value: "2", emoji: "🔬" },
+    // { label: { en: "Students Taught", ko: "지도 학생" }, value: "400+", emoji: "📚" },
   ];
 
   return (

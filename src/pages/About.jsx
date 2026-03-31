@@ -37,9 +37,6 @@ export default function About() {
               <p className="font-display font-bold text-lg text-[#3d1a26]">{info.education.school}</p>
               <p className="font-body text-sm text-[#9e6b7a] mt-1">{t(info.education.degree)}</p>
               <p className="font-body text-sm text-[#9e6b7a]">{t(info.education.date)}</p>
-              <div className="mt-3 inline-flex items-center gap-2 bg-[#fce4ec] rounded-full px-3 py-1">
-                <span className="text-xs font-bold font-mono text-[#c2185b]">GPA {info.education.gpa}</span>
-              </div>
               <p className="font-body text-xs text-[#b8909a] mt-2">{t(info.education.honors)[0]}</p>
             </div>
 

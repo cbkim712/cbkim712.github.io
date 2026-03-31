@@ -53,9 +53,6 @@ export default function Resume() {
           </iframe>
         </div>
 
-        <p className="animate-fade-up delay-300 text-center font-body text-xs text-[#b8909a] mt-4">
-          {t({ en: "Place your resume.pdf in the /public folder to display it here.", ko: "resume.pdf 파일을 /public 폴더에 넣으면 여기에 표시됩니다." })}
-        </p>
       </div>
     </main>
   );

@@ -1,5 +1,5 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { LangProvider } from "./context/LangContext";
+import { LangProvider, useLang } from "./context/LangContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,9 +9,10 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import "./index.css";
 
-function App() {
+function AppInner() {
+  const { lang } = useLang();
   return (
-    <LangProvider>
+    <div className={lang === 'ko' ? 'lang-ko' : ''}>
       <Router>
         <Navbar />
         <Routes>
@@ -23,6 +24,14 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <LangProvider>
+      <AppInner />
     </LangProvider>
   );
 }
