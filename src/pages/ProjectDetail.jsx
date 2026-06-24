@@ -10,7 +10,7 @@ const projectDetails = {
       en: "End-to-end multimodal evaluation pipeline integrating LISA (segmentation), DAM (captioning), and a LLaMA-based critic to assess spatial (IoU) and semantic similarity. Built an interactive Gradio interface to visualize segmentation results, compare predictions with targets, compute similarity scores, and generate feedback for prompt refinement.",
       ko: "LISA(분할), DAM(캡셔닝), LLaMA 기반 평가자를 통합한 멀티모달 평가 파이프라인입니다. Gradio 인터페이스로 분할 결과를 시각화하고, 예측값과 정답을 비교하며, 유사도 점수를 계산하고 프롬프트 개선을 위한 피드백을 생성합니다.",
     },
-    video: null, // Add your YouTube link here e.g. "https://www.youtube.com/embed/xxxxxxx"
+    video: "https://www.youtube.com/embed/jlrC9lmTgb0", // Add your YouTube link here e.g. "https://www.youtube.com/embed/xxxxxxx"
     pdf: "/projects/llm-presentation.pdf",
     pdfLabel: { en: "Presentation", ko: "발표 자료" },
     emoji: "🔬",
